@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>For Laasya ♥</title>
+<meta name="description" content="A small corner of the internet, made only for Laasya." />
+<meta name="theme-color" content="#0a0612" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ctext y='26' font-size='26'%3E%F0%9F%92%97%3C/text%3E%3C/svg%3E" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Outfit:wght@300;400;500;600&family=Great+Vibes&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- ░░ loader ░░ -->
+<div class="loader" id="loader">
+  <div class="loader__heart" aria-hidden="true">💗</div>
+  <p class="loader__name">for Laasya</p>
+  <div class="loader__bar"><span></span></div>
+</div>
+
+<!-- ░░ ambient layers ░░ -->
+<canvas id="bg" class="bg-canvas" aria-hidden="true"></canvas>
+<div class="grain" aria-hidden="true"></div>
+<div class="cursor-dot" id="cursorDot" aria-hidden="true"></div>
+<div class="cursor-ring" id="cursorRing" aria-hidden="true"></div>
+<div class="progress" id="progress" aria-hidden="true"></div>
+
+<!-- ░░ nav ░░ -->
+<header class="nav" id="nav">
+  <a class="brand" href="#top">
+    <span class="brand__mark">♥</span>
+    <span class="brand__text">for laasya</span>
+  </a>
+  <nav class="nav__links" aria-label="Sections">
+    <a href="#about">little things</a>
+    <a href="#moments">our timeline</a>
+    <a href="#letter">the letter</a>
+    <a href="#question" class="nav__cta">the question 💌</a>
+  </nav>
+</header>
+
+<main id="top">
+
+  <!-- ░░ hero ░░ -->
+  <section class="hero" id="hero">
+    <div class="orb orb--1" aria-hidden="true"></div>
+    <div class="orb orb--2" aria-hidden="true"></div>
+    <div class="orb orb--3" aria-hidden="true"></div>
+
+    <div class="hero__inner">
+      <div class="hero__portrait">
+        <img src="../assets/best-moment.jpg" alt="" aria-hidden="true" />
+      </div>
+      <p class="eyebrow hero__eyebrow">✨ a small corner of the internet, made only for you 💌</p>
+
+      <h1 class="name" aria-label="Laasya">Laasya</h1>
+
+      <p class="hero__typed">
+        <span id="typed"></span><span class="caret" aria-hidden="true"></span>
+      </p>
+
+      <p class="hero__sub">
+        There are a hundred ways to say how I feel 💭<br />
+        So I built one of them 💻💗
+      </p>
+
+      <div class="hero__actions">
+        <a class="btn btn--primary magnetic" href="#question">
+          <span>I have something to ask you 💍</span>
+          <svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><path d="M5 12h13M12 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <a class="btn btn--ghost" href="#about">read the rest first</a>
+      </div>
+    </div>
+
+    <a class="scroll-cue" href="#about" aria-label="Scroll down">
+      <span>scroll</span>
+      <i aria-hidden="true"></i>
+    </a>
+  </section>
+
+  <!-- ░░ ticker ░░ -->
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker__track">
+      <span>laasya 💞 &nbsp;·&nbsp; my favourite person &nbsp;·&nbsp; laasya 💞 &nbsp;·&nbsp; my favourite person &nbsp;·&nbsp;</span>
+      <span>laasya 💞 &nbsp;·&nbsp; my favourite person &nbsp;·&nbsp; laasya 💞 &nbsp;·&nbsp; my favourite person &nbsp;·&nbsp;</span>
+    </div>
+  </div>
+
+  <!-- ░░ little things ░░ -->
+  <section class="section" id="about">
+    <p class="eyebrow reveal">chapter one 🌸</p>
+    <h2 class="h2 reveal">A few of the <em class="grad">many</em> reasons</h2>
+    <p class="lede reveal">
+      I could fill this page forever. Here's where I'd start.
+    </p>
+
+    <div class="cards">
+      <article class="card tilt reveal">
+        <div class="card__icon" aria-hidden="true">😂</div>
+        <h3>Your laugh</h3>
+        <p>It arrives before the joke even lands, and it makes every room a little warmer.</p>
+        <span class="card__num">01</span>
+      </article>
+
+      <article class="card tilt reveal">
+        <div class="card__icon" aria-hidden="true">🌷</div>
+        <h3>Your kindness</h3>
+        <p>You notice the people everyone else forgets — and you make them feel seen.</p>
+        <span class="card__num">02</span>
+      </article>
+
+      <article class="card tilt reveal">
+        <div class="card__icon" aria-hidden="true">🧠</div>
+        <h3>Your mind</h3>
+        <p>The way you think, argue, and light up over the things you love. It's unfair, honestly.</p>
+        <span class="card__num">03</span>
+      </article>
+
+      <article class="card tilt reveal">
+        <div class="card__icon" aria-hidden="true">💖</div>
+        <h3>Your everything</h3>
+        <p>Even the small things. The way you say my name. Your sleepy texts. All of it.</p>
+        <span class="card__num">04</span>
+      </article>
+    </div>
+  </section>
+
+  <!-- ░░ timeline ░░ -->
+  <section class="section" id="moments">
+    <p class="eyebrow reveal">chapter two 🌙</p>
+    <h2 class="h2 reveal">Our <em class="grad">little</em> timeline</h2>
+    <p class="lede reveal">A few frames from a film I'd watch on repeat.</p>
+
+    <div class="timeline reveal">
+      <div class="timeline__rail" aria-hidden="true"><span class="timeline__fill" id="timelineFill"></span></div>
+      <ol class="timeline__list">
+        <li class="tl-item">
+          <span class="tl-item__dot" aria-hidden="true"></span>
+          <time>the beginning 🌱</time>
+          <h3>The day the world got smaller 🌍</h3>
+          <p>One conversation, and suddenly there was a person my brain kept coming back to.</p>
+        </li>
+        <li class="tl-item">
+          <span class="tl-item__dot" aria-hidden="true"></span>
+          <time>late nights 🌙</time>
+          <h3>Talking until the sky turned grey 🌌</h3>
+          <p>We said "five more minutes" about eleven times. I'd do it again tonight.</p>
+        </li>
+        <li class="tl-item">
+          <span class="tl-item__dot" aria-hidden="true"></span>
+          <time>the moment I knew ✨</time>
+          <h3>You laughed at my worst joke 😂</h3>
+          <p>And I realised I wanted to keep being the person who gets to hear that.</p>
+        </li>
+        <li class="tl-item">
+          <span class="tl-item__dot" aria-hidden="true"></span>
+          <time>every ordinary tuesday ☕</time>
+          <h3>The boring days with you 🛋️</h3>
+          <p>Grocery runs, shared silences, nothing at all. Somehow my favourite kind of day.</p>
+        </li>
+        <li class="tl-item tl-item--now">
+          <span class="tl-item__dot" aria-hidden="true"></span>
+          <time>right now 💍</time>
+          <h3>This page, and one question 💍</h3>
+          <p>Scroll down. Take your time. But please do scroll down.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ░░ best moment ░░ -->
+  <section class="section section--moment" id="moment">
+    <p class="eyebrow reveal">the best one 📸</p>
+    <h2 class="h2 reveal">The best moment <em class="grad">of my life</em></h2>
+    <p class="lede reveal">If I could keep just one frame forever, it would be this one.</p>
+
+    <figure class="polaroid reveal">
+      <div class="polaroid__frame">
+        <div class="polaroid__photo">
+          <img src="../assets/best-moment.jpg" alt="Laasya and me — the best moment of my life" loading="lazy" onerror="this.classList.add('is-missing')" />
+          <div class="polaroid__fallback" aria-hidden="true">💖</div>
+        </div>
+        <figcaption>
+          <p class="polaroid__script">the best moment of my life 💞</p>
+          <p class="polaroid__date">with you &nbsp;·&nbsp; always 💞</p>
+        </figcaption>
+      </div>
+      <span class="polaroid__tape" aria-hidden="true"></span>
+    </figure>
+  </section>
+
+  <!-- ░░ letter ░░ -->
+  <section class="section section--letter" id="letter">
+    <p class="eyebrow reveal">chapter three 💌</p>
+    <h2 class="h2 reveal">Something I couldn't fit <em class="grad">in a text</em></h2>
+    <p class="lede reveal">There's a letter inside. It's for you. Obviously.</p>
+
+    <div class="envelope-wrap reveal">
+      <div class="envelope" id="envelope" role="button" tabindex="0" aria-label="Open the letter" aria-expanded="false">
+        <div class="env-body"></div>
+        <div class="env-lines" aria-hidden="true"></div>
+        <div class="env-flap"></div>
+        <div class="env-seal" aria-hidden="true">💗</div>
+        <span class="env-to">to: laasya 💌</span>
+      </div>
+    </div>
+    <p class="envelope-hint reveal" id="envHint">tap to open</p>
+
+    <article class="letter-card" id="letterCard">
+      <div>
+        <div class="letter-card__inner">
+          <p class="letter-card__date">today, with a nervous heart 🥺</p>
+          <p class="letter-salutation">Laasya,</p>
+          <p>I've rewritten this about nine times, because words keep feeling too small for what I'm trying to say.</p>
+          <p>Here's the honest version: you make everything softer. Mornings, bad days, the long boring stretches in between. You have this way of listening like whatever I'm saying actually matters — and of laughing like the whole world is in on the joke.</p>
+          <p>I don't want a perfect story. I want the ordinary one. Grocery runs and inside jokes and arguing over what to watch. I want the version where it's you, on the plain days, for a very long time.</p>
+          <p>So I built a whole website. Because apparently I'm dramatic when it comes to you.</p>
+          <p class="letter-sign">yours, always 💗</p>
+          <p class="letter-signature">💗</p>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <!-- ░░ the question ░░ -->
+  <section class="section section--question" id="question">
+    <p class="eyebrow reveal">chapter four 💍</p>
+    <h2 class="h2 reveal">The part I've been <em class="grad">building up to</em></h2>
+
+    <div class="ask reveal" id="ask">
+      <div class="ask__inner" id="askInner">
+        <p class="ask__kicker">one question 💌</p>
+        <h3 class="ask__title">
+          Laasya, 💐
+          <span class="grad grad--big">will you be mine?</span>
+        </h3>
+        <p class="ask__sub">I've asked the universe for a lot of things. This is the only one I actually need. 💗</p>
+
+        <div class="dodge-zone" id="zone">
+          <button class="btn btn--yes" id="yes" type="button">
+            <span class="btn__heart" aria-hidden="true">💗</span>
+            Yes, obviously
+          </button>
+          <button class="btn btn--no" id="no" type="button">No</button>
+        </div>
+
+        <p class="ask__hint" id="hint">p.s. the "no" button is a little shy 😌 go on, try it.</p>
+      </div>
+
+      <div class="said" id="said" aria-hidden="true">
+        <div class="said__ring" aria-hidden="true"></div>
+        <p class="said__kicker">official result</p>
+        <h3 class="said__title">She said <em>yes</em>! 🎉</h3>
+        <p class="said__sub">Best answer I have ever received. I love you, Laasya 💗</p>
+        <p class="said__small">now call me — I owe you a hug and probably dinner 🍝</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p class="footer__script">yours, always</p>
+    <p class="footer__meta">made with ❤️, nervous energy, and far too much CSS</p>
+    <p class="footer__meta footer__meta--dim">for Laasya · 2026 💞</p>
+  </footer>
+</main>
+
+<!-- ░░ celebration layers ░░ -->
+<canvas id="fx" class="fx-canvas" aria-hidden="true"></canvas>
+<div class="flash" id="flash" aria-hidden="true"></div>
+<div class="heart-rain" id="heartRain" aria-hidden="true"></div>
+
+<button class="sound" id="sound" type="button" aria-pressed="false" aria-label="Toggle music">
+  <span class="sound__bars" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+  <span class="sound__label">music</span>
+</button>
+
+<script src="script.js"></script>
+</body>
+</html>
