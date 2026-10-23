@@ -2,6 +2,8 @@
 
 A proposal website in **one single file** — `index.html`.
 
+**Live:** https://sreeharipraneeth16-cell.github.io/laasya-proposal/
+
 Open it, and that's the whole thing. No server, no install, no internet needed
 (the fonts upgrade themselves if you're online).
 
@@ -94,11 +96,24 @@ glowing heart instead of a broken image.
 
 ## Put it online (free)
 
-1. Open **[Netlify Drop](https://app.netlify.com/drop)**
-2. Drag the `laasya-proposal` folder (or just `index.html`) onto the page
-3. You get a link — send it to her
+It's already live on **GitHub Pages**:
 
-Works the same on GitHub Pages, Vercel, or Cloudflare Pages.
+**https://sreeharipraneeth16-cell.github.io/laasya-proposal/**
+
+The repo is `sreeharipraneeth16-cell/laasya-proposal` (public, branch `main`,
+Pages serving the repo root). Any time you change the site, rebuild and push:
+
+```
+node source/build.js
+git add index.html
+git commit -m "Update the site"
+git push
+```
+
+Pages redeploys automatically in under a minute.
+
+Other free options: Netlify Drop, Vercel, or Cloudflare Pages — just drag
+`index.html` in.
 
 Or hand her your laptop and open `index.html`.
 
